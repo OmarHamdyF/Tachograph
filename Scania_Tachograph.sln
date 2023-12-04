@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scania_Tachograph", "Scania_Tachograph\Scania_Tachograph.csproj", "{6A40F734-5C24-45B9-A38C-5123414571B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{4C8719C9-403D-4F01-9B77-F8D4EB68B733}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Domain", "Core.Domain\Core.Domain.csproj", "{6120AA31-8990-4FEE-BFAD-6A82862A767D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Application", "Core.Application\Core.Application.csproj", "{E4C02FA7-F390-4ABA-BF50-A89DAE5BF047}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A3DB64A3-6C35-4269-B551-ACD82B5A037E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Data", "Infrastructure.Data\Infrastructure.Data.csproj", "{F39143BB-A19D-4924-A1B7-D67DA7CDBDB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Shared", "Infrastructure.Shared\Infrastructure.Shared.csproj", "{D5135A5B-3240-4B24-9133-2436794DD75B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A40F734-5C24-45B9-A38C-5123414571B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A40F734-5C24-45B9-A38C-5123414571B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A40F734-5C24-45B9-A38C-5123414571B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A40F734-5C24-45B9-A38C-5123414571B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6120AA31-8990-4FEE-BFAD-6A82862A767D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6120AA31-8990-4FEE-BFAD-6A82862A767D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6120AA31-8990-4FEE-BFAD-6A82862A767D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6120AA31-8990-4FEE-BFAD-6A82862A767D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4C02FA7-F390-4ABA-BF50-A89DAE5BF047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4C02FA7-F390-4ABA-BF50-A89DAE5BF047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4C02FA7-F390-4ABA-BF50-A89DAE5BF047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4C02FA7-F390-4ABA-BF50-A89DAE5BF047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F39143BB-A19D-4924-A1B7-D67DA7CDBDB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39143BB-A19D-4924-A1B7-D67DA7CDBDB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39143BB-A19D-4924-A1B7-D67DA7CDBDB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39143BB-A19D-4924-A1B7-D67DA7CDBDB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5135A5B-3240-4B24-9133-2436794DD75B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5135A5B-3240-4B24-9133-2436794DD75B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5135A5B-3240-4B24-9133-2436794DD75B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5135A5B-3240-4B24-9133-2436794DD75B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6120AA31-8990-4FEE-BFAD-6A82862A767D} = {4C8719C9-403D-4F01-9B77-F8D4EB68B733}
+		{E4C02FA7-F390-4ABA-BF50-A89DAE5BF047} = {4C8719C9-403D-4F01-9B77-F8D4EB68B733}
+		{F39143BB-A19D-4924-A1B7-D67DA7CDBDB5} = {A3DB64A3-6C35-4269-B551-ACD82B5A037E}
+		{D5135A5B-3240-4B24-9133-2436794DD75B} = {A3DB64A3-6C35-4269-B551-ACD82B5A037E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C3A0EEB-B858-4C23-92BF-6F13F3A45491}
+	EndGlobalSection
+EndGlobal
